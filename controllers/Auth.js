@@ -47,7 +47,7 @@ exports.sendOTP = async(req,res) => {
         // return response successful
         res.status(200).json({
             success : true,
-            message : 'OTP Sent Successfully',
+            message : 'OTP Sent Successfully to your Mailbox',
             otp,
         })
     }
